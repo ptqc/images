@@ -1,7 +1,7 @@
 FROM openjdk:8-jdk
 MAINTAINER Simon <shuang@coremail.cn>
 
-COPY _root /
+COPY docker/cloud/_root /
 
 RUN sh /home/mailtech/bin/image-init.sh
 RUN chmod a+x /home/mailtech/bin/entrypoint.sh
