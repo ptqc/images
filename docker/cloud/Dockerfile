@@ -11,4 +11,4 @@ LABEL name="Coremail Cloud Base Image" \
     license="(None)" \
     build-date="20190314"
 
-ENTRYPOINT ["/home/mailtech/bin/entrypoint.sh"]
+#ENTRYPOINT ["/home/mailtech/bin/entrypoint.sh"]
