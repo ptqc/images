@@ -15,8 +15,12 @@ installCrontab() {
     apt-get -y install cron
 }
 
+installPythonJose() {
+    pip install python-jose[cryptography]
+}
+
 run() {
-    prepare && installMySQLForPython && installCrontab
+    prepare && installMySQLForPython && installCrontab && installPythonJose
 }
 
 
